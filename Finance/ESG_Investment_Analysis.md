@@ -1,5 +1,3 @@
-Example file: Finance/ESG_Investment_Analysis.md
-
 # ESG Investment Analysis
 
 **Objective:** Evaluate companies based on Environmental, Social, and Governance (ESG) criteria.
