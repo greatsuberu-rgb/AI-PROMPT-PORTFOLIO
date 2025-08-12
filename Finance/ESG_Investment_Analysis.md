@@ -1,4 +1,4 @@
-# ESG Investment Analysis
+Prompt 1: ESG Investment Analysis
 
 **Objective:** Evaluate companies based on Environmental, Social, and Governance (ESG) criteria.
 
