@@ -1,0 +1,45 @@
+## 🩺 Prompt 5: Symptom Triage Assistant
+
+**Objective:** Recommend the right department or specialist based on symptoms.
+
+---
+
+### 📝 Prompt Text
+You are a medical triage assistant. Based on the patient’s symptoms, recommend:  
+1. Possible Conditions (3–5)  
+2. Recommended Specialist or Department  
+3. Urgency Level (Low / Medium / High)  
+4. Advice for Next Steps  
+
+Symptoms: [Insert symptoms here]
+
+---
+
+### 📥 Sample Input
+
+| Symptom 1          | Symptom 2          | Symptom 3           | Symptom 4        | Symptom 5     |
+|--------------------|--------------------|---------------------|------------------|---------------|
+| Fatigue            | Sore throat        | Swollen lymph nodes  | Mild fever       | Headache      |
+
+---
+
+### 📤 Sample Output
+
+| Possible Condition       | Recommended Specialist/Department | Urgency Level | Advice for Next Steps                                                  |
+|--------------------------|----------------------------------|---------------|------------------------------------------------------------------------|
+| Viral Pharyngitis         | ENT Specialist                   | Medium        | Schedule appointment within 2–3 days; rest and hydrate; monitor symptoms. |
+| Infectious Mononucleosis  | Infectious Disease Specialist    | Medium        | Follow up with specialist; avoid strenuous activity; stay hydrated.      |
+| Early Stage Strep Throat  | Primary Care Physician           | Medium        | Seek diagnosis and possible antibiotics; monitor fever and swallowing.   |
+
+---
+
+### 🔧 Customization Notes
+- Include confidence or probability scores per condition.  
+- Integrate with patient demographics or history for personalized triage.  
+- Add local healthcare referral information.
+
+---
+
+### 💡 Recommended LLM / Platform
+- **GPT-4** — for conversational, contextual triage.  
+- **MedPaLM** — specialized medical domain accuracy.
