@@ -1,10 +1,10 @@
-Prompt: Budget Forecast Generator
-
+Prompt 1: Budget Forecast Generator
 Objective: Predict budget allocations for the next quarter based on historical budget and expense data.
 
 📝 Prompt Text
 
-You are a financial forecaster. Based on the following historical budget and expense data, predict the next quarter's allocations. For each department, return:
+You are a financial forecaster. Based on the following historical budget and expense data, predict the next quarter's allocations: [Insert historical budget data]
+For each department, return:
 
 1. Predicted Allocation (£)
 
@@ -16,7 +16,10 @@ You are a financial forecaster. Based on the following historical budget and exp
 
 
 
-Historical Data Example:
+
+---
+
+📥 Sample Input
 
 Quarter	Department	Allocation (£)	Actual Spend (£)	Notes
 
@@ -34,37 +37,10 @@ Q3 2024	HR	35,000	36,000	Training completed
 
 ---
 
-📥 Sample Input
-
-Historical budget table for Q1–Q3 2024 (as shown above).
-
 📤 Sample Output
 
 Department	Predicted Allocation (£)	% Change from Previous Quarter	Risk Notes
 
-Marketing	60,000	+3.45%	Possible overspend if holiday campaign expands
-Operations	87,000	+2.35%	Inflationary pressure on supply costs
-HR	36,500	+1.43%	Potential unplanned training costs
-
-
-
----
-
-🔧 Customization Notes
-
-Adjust prediction logic to account for seasonal patterns or inflation rates.
-
-Include separate risk categories (Low, Medium, High) if required.
-
-Add a variance analysis column comparing forecast vs. historical average.
-
-
-
----
-
-💡 Recommended LLM/Platform
-
-GPT-4 (for nuanced forecasting and reasoning)
-
+Marketing	60,000	+3.45%	Possible
 
 
