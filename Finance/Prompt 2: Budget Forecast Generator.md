@@ -1,10 +1,3 @@
-Got it — you want your Budget Forecast Generator formatted like the ESG example you gave, with clear Objective, Prompt Text, Sample Input, Sample Output, Customization Notes, and Recommended LLM/Platform.
-
-Here’s the regenerated version in that style:
-
-
----
-
 Prompt: Budget Forecast Generator
 
 Objective: Predict budget allocations for the next quarter based on historical budget and expense data.
