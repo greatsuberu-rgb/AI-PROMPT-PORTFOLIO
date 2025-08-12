@@ -5,7 +5,15 @@ Prompt Text:
 
 You are a financial forecaster. Based on the following historical budget and expense data, predict the next quarter's allocations:
 
-[Insert dataset]
+[Example: Historical Weather Dataset (London, 2010–2020)
+
+Date	Avg Temp (°C)	Rainfall (mm)	Wind Speed (km/h)	Weather Condition
+
+2010-01-01	4.2	2.5	14	Cloudy
+2010-01-02	3.8	0.0	12	Clear
+2010-01-03	5.1	4.8	18	Rainy
+...	...	...	...	...
+2020-12-31	6.5	1.2	10	Cloudy]
 
 Output in table format:
 - Department
