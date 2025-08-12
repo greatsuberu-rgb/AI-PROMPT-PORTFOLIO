@@ -40,11 +40,10 @@ Q3 2024 | HR           | 35,000         | 36,000           | Training completed
 ---
 📤 Sample Output
 
-Department	Predicted Allocation (£)	% Change from Previous Quarter	Risk Notes
-
-Marketing	60,000	+3.45%	Possible overspend if holiday campaign expands
-Operations	87,000	+2.35%	Inflationary pressure on supply costs
-HR	36,500	+1.43%	Potential unplanned training costs
+Department  | Predicted Allocation (£)  | % Change from Previous Quarter  | Risk Notes
+Marketing   | 60,000                    | +3.45%                          | Possible overspend if holiday campaign expands
+Operations  | 87,000                    | +2.35%                          | Inflationary pressure on supply costs
+HR          | 36,500                    | +1.43%                          | Potential unplanned training costs
 
 
 
