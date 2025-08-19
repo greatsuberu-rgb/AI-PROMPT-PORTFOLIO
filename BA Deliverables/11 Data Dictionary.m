@@ -1,4 +1,4 @@
-# 📄 Prompt 10: Data Dictionary
+# 📄 Prompt 11: Data Dictionary
 
 ## 🎯 Objective  
 To create a **Data Dictionary** that defines all the critical data elements used in the system, including their attributes, formats, relationships, and business meaning. This ensures **data consistency, clarity, and accuracy** across stakeholders, developers, and testers.
