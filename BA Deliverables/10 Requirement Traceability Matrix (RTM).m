@@ -1,4 +1,4 @@
-# 📄 Prompt 9: Requirement Traceability Matrix (RTM)
+# 📄 Prompt 10: Requirement Traceability Matrix (RTM)
 
 ## 🎯 Objective  
 To create a **Requirement Traceability Matrix (RTM)** that ensures every business requirement is linked to its corresponding functional specification, design element, test case, and status. This ensures alignment between business goals, technical implementation, and quality assurance.
