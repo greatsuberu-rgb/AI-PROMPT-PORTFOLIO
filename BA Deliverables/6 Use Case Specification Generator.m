@@ -1,4 +1,4 @@
-# 📄 Prompt 4: Use Case Specification Generator
+# 📄 Prompt 6: Use Case Specification Generator
 
 ## 🎯 Objective  
 Create detailed **use case specifications** documenting system interactions, preconditions, triggers, flows, exceptions, and postconditions.
