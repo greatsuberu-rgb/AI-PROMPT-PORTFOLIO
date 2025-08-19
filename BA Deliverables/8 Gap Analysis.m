@@ -1,4 +1,4 @@
-# 📄 Prompt 7: Gap Analysis
+# 📄 Prompt 8: Gap Analysis
 
 ## 🎯 Objective  
 To identify the differences ("gaps") between the current state and the desired future state of a system, process, or organization. This helps define improvement opportunities, prioritize initiatives, and guide solution design.
