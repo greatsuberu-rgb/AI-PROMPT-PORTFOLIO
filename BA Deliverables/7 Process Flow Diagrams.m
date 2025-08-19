@@ -1,4 +1,4 @@
-# 📄 Prompt 5: Process Flow / Workflow Diagram Generator
+# 📄 Prompt 7: Process Flow / Workflow Diagram Generator
 
 ## 🎯 Objective  
 Create **process flow diagrams** and step-by-step workflows to document business processes clearly and support analysis, development, and testing.
