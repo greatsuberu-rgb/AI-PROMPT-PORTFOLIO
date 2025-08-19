@@ -1,4 +1,4 @@
-# 📄 Prompt 3: User Stories & Acceptance Criteria Generator
+# 📄 Prompt 5: User Stories & Acceptance Criteria Generator
 
 ## 🎯 Objective  
 Generate **user stories** with structured **acceptance criteria** for Agile projects.
