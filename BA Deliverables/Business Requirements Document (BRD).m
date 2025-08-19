@@ -35,7 +35,7 @@ The BRD should include:
 | Stakeholders           | - Restaurant Owner <br> - IT Team <br> - Customers                     |  
 | High-Level Requirements| - Secure login <br> - Menu browsing <br> - Online payment <br> - Order notifications |  
 | Assumptions            | - Customers have internet-enabled devices <br> - Payments handled via Stripe |  
-| Constraints            | - Budget: $80,000 <br> - Timeline: 6 months                            |  
+| Constraints            | - Budget: £80,000 <br> - Timeline: 6 months                            |  
 
 ---
 
