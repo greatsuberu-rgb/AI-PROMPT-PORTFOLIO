@@ -1,4 +1,4 @@
-# 📄 Prompt 8: SWOT Analysis
+# 📄 Prompt 9: SWOT Analysis
 
 ## 🎯 Objective  
 To analyze the **Strengths, Weaknesses, Opportunities, and Threats (SWOT)** of a project, product, or organization. This helps stakeholders understand internal capabilities and external market dynamics for informed decision-making.
