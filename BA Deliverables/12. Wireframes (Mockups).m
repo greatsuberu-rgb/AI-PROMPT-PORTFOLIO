@@ -1,4 +1,4 @@
-# 📄 Prompt 11: Wireframes (Mockups)
+# 📄 Prompt 12: Wireframes (Mockups)
 
 ## 🎯 Objective  
 To design **Wireframes (Mockups)** that visually represent the structure, layout, and navigation of a system or application before development.  
