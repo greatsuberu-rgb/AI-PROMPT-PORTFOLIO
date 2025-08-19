@@ -1,4 +1,4 @@
-# 📄 Prompt 12: Business Case Document  
+# 📄 Prompt 2: Business Case Document  
 
 ## 🎯 Objective  
 To create a **Business Case Document** that justifies a proposed project or initiative.  
