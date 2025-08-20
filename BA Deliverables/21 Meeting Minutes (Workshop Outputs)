@@ -1,0 +1,77 @@
+# 📄 Prompt 21: Meeting Minutes (Workshop Outputs)  
+
+## 🎯 Objective  
+To **capture key decisions, actions, and discussions** from project meetings or workshops.  
+Meeting minutes ensure **accountability, traceability, and clarity** for all attendees and stakeholders.  
+
+---
+
+## 📝 Prompt Text  
+You are a **Business Analyst / Project Coordinator**. Document the **Meeting Minutes** for the session.  
+Include the following sections:  
+
+1. **Meeting Details** – date, time, location, facilitator.  
+2. **Attendees** – list of participants and roles.  
+3. **Agenda** – topics planned for discussion.  
+4. **Discussion Summary** – key points raised during each agenda item.  
+5. **Decisions Made** – agreed actions or approvals.  
+6. **Action Items** – tasks assigned, owner, and due date.  
+7. **Notes / Comments** – any additional observations.  
+
+Additionally, provide:  
+- A **Narrative Summary** explaining the importance of structured meeting documentation.  
+
+---
+
+## 📥 Sample Input  
+
+**Meeting:** AI Chatbot Design Workshop  
+**Date:** August 20, 2025  
+**Attendees:** Project Manager, BA, IT Lead, Customer Support Lead  
+
+**Agenda:**  
+1. Review functional requirements  
+2. Discuss integration with CRM  
+3. Plan user training  
+
+---
+
+## 📤 Sample Output  
+
+| Section                 | Details                                                                 |
+|-------------------------|-------------------------------------------------------------------------|
+| Meeting Details         | Date: Aug 20, 2025<br>Time: 10:00–12:00<br>Location: Conference Room A<br>Facilitator: BA |
+| Attendees               | Project Manager: Mark Johnson<br>BA: Jane Smith<br>IT Lead: Sarah Lee<br>Customer Support Lead: Tom Brown |
+| Agenda                  | 1. Review functional requirements<br>2. Discuss CRM integration<br>3. Plan user training |
+| Discussion Summary      | 1. FRD reviewed; minor updates suggested<br>2. Integration requires API adjustment<br>3. Training schedule proposed for end of Sept |
+| Decisions Made          | 1. Updated FRD to include escalation flows<br>2. CRM API integration approved<br>3. Training sessions to proceed as scheduled |
+| Action Items            | 1. BA to update FRD – Due Aug 25<br>2. IT Lead to confirm API readiness – Due Aug 28<br>3. Customer Support Lead to finalize training materials – Due Sept 10 |
+| Notes / Comments        | Ensure stakeholders review updated FRD before next meeting |
+
+---
+
+## 2️⃣ Narrative Explanation  
+
+Documenting **meeting minutes** is critical because:  
+- Provides **a record of discussions and decisions** for accountability.  
+- Ensures **action items are tracked and assigned** clearly.  
+- Serves as a **reference for stakeholders not in attendance**.  
+- Supports **project governance and transparency**.  
+
+Without meeting minutes, **important decisions may be forgotten, responsibilities unclear, and follow-ups delayed**.  
+
+---
+
+## 🔧 Customization Notes  
+- Include **versioning** if minutes are revised.  
+- Can tag **priority action items** or link to project management tools.  
+- Include **attachments or references** discussed in the meeting.  
+- Adjust **format** for virtual meetings or workshops with multiple sessions.  
+
+---
+
+## 💡 Recommended LLM  
+- **GPT-4o / GPT-4 Turbo** → Generates structured, detailed meeting minutes from notes or recordings.  
+- **Claude 3 Opus** → Produces concise and readable minutes suitable for all stakeholders.  
+- **Gemini Pro** → Strong at organizing discussion points into actionable items.  
+- **Mistral Large** → Fast, iterative drafting for multiple workshop outputs.
