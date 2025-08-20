@@ -1,1 +1,125 @@
+# 📄 Prompt 18: Functional Specification Document (FSD)  
 
+## 🎯 Objective  
+To provide a **comprehensive technical specification** of system functionalities derived from the FRD.  
+An **FSD** serves as the blueprint for developers, QA, and system architects, ensuring features are implemented accurately according to business and functional requirements.  
+
+---
+
+## 📝 Prompt Text  
+You are a **Business Analyst / Technical Analyst**. Create a **Functional Specification Document (FSD)** for the proposed project.  
+Include the following sections:  
+
+1. **Project Overview** – background, purpose, and high-level description.  
+2. **Functional Requirements** – detailed specifications of system behavior.  
+3. **System Architecture Overview** – technical components, modules, and integrations.  
+4. **User Interfaces & Navigation** – UI elements, pages/screens, and flow.  
+5. **Data Models & Schemas** – database tables, fields, and relationships.  
+6. **Business Rules & Logic** – calculations, validations, and conditions.  
+7. **Use Cases / User Stories** – detailed scenarios for system use.  
+8. **Non-Functional Requirements (NFRs)** – performance, security, reliability, scalability.  
+9. **Assumptions & Constraints** – technical or operational limitations.  
+10. **Acceptance Criteria** – measurable conditions for development validation.  
+11. **Traceability Matrix** – links between FRD requirements and FSD specifications.  
+12. **Approval Signatures** – authorization from stakeholders and technical leads.  
+
+Additionally, provide:  
+- A **Narrative Summary** explaining why an FSD is critical for accurate system delivery.  
+
+---
+
+## 📥 Sample Input  
+
+**Project:** Online Food Ordering System  
+
+**Context:** Customers place orders online, pay digitally, and track delivery status; system integrates with restaurant backend and payment gateways.  
+
+---
+
+## 📤 Sample Output  
+
+### 📑 Functional Specification Document  
+
+**Project Overview:**  
+The online food ordering system will streamline customer orders from browsing to payment, integrating with restaurant and delivery systems while providing a seamless UX.  
+
+**Functional Requirements:**  
+1. Customer account creation and authentication.  
+2. Browse menus, filter by cuisine, price, or dietary preference.  
+3. Order creation, modification, and cancellation.  
+4. Payment processing via card and digital wallets.  
+5. Real-time order status notifications.  
+
+**System Architecture Overview:**  
+- Web frontend (React.js)  
+- Mobile app (iOS/Android, Flutter)  
+- Backend API (Node.js) connected to database (PostgreSQL)  
+- Payment gateway integration (Stripe API)  
+- Delivery partner API integration  
+
+**User Interfaces & Navigation:**  
+- Homepage → Menu page → Item selection → Checkout → Payment → Confirmation  
+- Responsive design for web and mobile  
+
+**Data Models & Schemas:**  
+- **Customer Table:** CustomerID, Name, Email, Phone, Address  
+- **Order Table:** OrderID, CustomerID, Items, TotalAmount, Status, Timestamp  
+- **Payment Table:** PaymentID, OrderID, Amount, PaymentMethod, Status  
+
+**Business Rules & Logic:**  
+- Maximum order per customer: 10 items.  
+- Free delivery for orders above £50.  
+- Promotions applied based on active coupon codes.  
+
+**Use Cases / User Stories:**  
+- *As a customer, I want to pay securely online so that my order is confirmed instantly.*  
+- *As a delivery partner, I want real-time order updates so that I can optimize delivery routes.*  
+
+**Non-Functional Requirements (NFRs):**  
+1. 99.9% uptime for web and mobile services.  
+2. Transactions processed in under 3 seconds.  
+3. GDPR-compliant handling of user data.  
+
+**Assumptions & Constraints:**  
+- Restaurant APIs will provide accurate inventory data.  
+- Payment gateway available 24/7.  
+
+**Acceptance Criteria:**  
+- All functional modules pass unit and integration testing.  
+- End-to-end order flow tested successfully.  
+- Load testing supports 10,000 concurrent users.  
+
+**Traceability Matrix:**  
+- FRD Requirement “Order Placement” → FSD Spec “Order creation, modification, cancellation module with API calls”  
+- FRD Requirement “Payment Integration” → FSD Spec “Stripe API module with transaction validation”  
+
+**Approval Signatures:**  
+- Product Owner: John Doe  
+- Technical Lead: Jane Smith  
+- Project Manager: Michael Brown  
+
+---
+
+## 2️⃣ Narrative Explanation  
+
+An **FSD** is critical because:  
+- Provides **developers and testers a clear blueprint** for implementation.  
+- Reduces risk of **misalignment between functional requirements and system design**.  
+- Enables **structured traceability** between FRD requirements and developed features.  
+- Supports **quality assurance, audits, and compliance verification**.  
+
+---
+
+## 🔧 Customization Notes  
+- Can include **priority ranking** for each functional requirement.  
+- Use visual **UML diagrams or wireframes** for clarity on UI and navigation.  
+- Link business rules to **validation scripts and test cases**.  
+- Expand NFRs to cover **performance benchmarks, scalability, and security standards**.  
+
+---
+
+## 💡 Recommended LLM  
+- **GPT-4o / GPT-4 Turbo** → Excellent for detailed FSD drafting and technical alignment.  
+- **Claude 3 Opus** → Generates concise, developer-friendly functional specifications.  
+- **Gemini Pro** → Strong for linking FRD requirements to system design and traceability.  
+- **Mistral Large** → Fast iterative drafts for collaborative FSD development.
