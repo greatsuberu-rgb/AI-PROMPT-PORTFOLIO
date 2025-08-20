@@ -1,4 +1,4 @@
-## 📄 Prompt 1: Business Requirements Document (BRD) Generator  
+## 📄 Prompt 17: Business Requirements Document (BRD) Generator  
 
 **Objective:** Generate a structured Business Requirements Document for a given project.  
 
